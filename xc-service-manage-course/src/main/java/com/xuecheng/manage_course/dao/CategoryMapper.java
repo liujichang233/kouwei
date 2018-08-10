@@ -10,6 +10,6 @@ public interface CategoryMapper {
      * @return
      */
 
-    public CategoryNode selectList();
+     CategoryNode selectList();
 
 }

@@ -13,13 +13,13 @@ public interface CourseBaseMapper {
      * @param id
      * @return
      */
-    public CourseBase findCourseBaseById(String id);
+     CourseBase findCourseBaseById(String id);
 
     /**
      * 分页查询课程信息  根据条件查询
      * @return
      */
-    public Page<CourseInfo> findCourseListPage(CourseListRequest courseListRequest);
+     Page<CourseInfo> findCourseListPage(CourseListRequest courseListRequest);
 
 
 }
